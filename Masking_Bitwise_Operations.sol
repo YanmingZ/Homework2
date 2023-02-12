@@ -13,7 +13,6 @@ contract Masking_Bitwise_Operations{
         output[i] = input & mask;
         mask = mask << 1;
     }
-
    return output;
   }
 }
